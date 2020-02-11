@@ -1,0 +1,35 @@
+Warehouse Application:-
+---------------------
+Warehouse is a storage location where 
+different items are stored location wise
+connected to vendor. 
+
+Basic Modules :
+Uom, OrderMethod , ShipmentType,
+Vendor, Customer and Item.
+
+Operations Modules:
+1. Inbound Operations
+2. Outbound Operations
+
+1. Inbound Operations: These operations
+indicates "Getting an Item into Warehouse,
+from factory".
+  These operations are:
+  i. Purchase Order
+ ii. Vendor Invoice
+iii. GRN(Goods Receive Note)
+
+Once this operation is done quantity 
+of items will be increased (+Quantity)
+
+2. Outbound Operations: These operations
+indicates "Sending an Item out from 
+Warehouse to customer/end customer".
+  i. Sale Order
+ ii. Customer(Sale) Invoice
+iii. Shipment 
+
+On performing Outbound operation quantity
+of item will be reduced (-Quantity)
+------------------------------------------
